@@ -1,0 +1,1 @@
+function addEvents(){inputFecha()}function inputFecha(){let e=document.querySelector("#fecha");e.addEventListener("input",n=>{window.location="?fecha="+e.value})}console.log("hola"),document.addEventListener("DOMContentLoaded",addEvents);
